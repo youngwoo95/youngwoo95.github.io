@@ -1,0 +1,34 @@
+baseURL: "https://youngwoo95.github.io/"
+languageCode: "ko-kr"
+title: "My Dev Notes"
+theme: "PaperMod"
+
+author:
+  name: "용우 김"
+
+params:
+  author: "용우 김"
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  showtoc: true
+  tocopen: true
+
+menu:
+  main:
+    - name: "Posts"
+      url: "/posts/"
+      weight: 1
+    - name: "Tags"
+      url: "/tags/"
+      weight: 2
+    - name: "Search"
+      url: "/search/"
+      weight: 3
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
