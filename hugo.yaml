@@ -17,15 +17,24 @@ params:
 
 menu:
   main:
+    - name: ".NET"
+      url: "/dotnet/"
+      weight: 1
+    - name: "Java"
+      url: "/java/"
+      weight: 2
+    - name: "DB"
+      url: "/db/"
+      weight: 3
     - name: "Posts"
       url: "/posts/"
-      weight: 1
+      weight: 4
     - name: "Tags"
       url: "/tags/"
-      weight: 2
+      weight: 5
     - name: "Search"
       url: "/search/"
-      weight: 3
+      weight: 6
 
 outputs:
   home:
